@@ -157,6 +157,8 @@ a {
     flex: 1;
     justify-content: center;
     align-items: center;
+    padding: 48px 0;
+    margin-bottom: 48px;
 }
 
 .quoteProper {
@@ -171,4 +173,5 @@ a {
     color: #1F2937;
     font-weight: bold;
     align-self: flex-end;
+    margin-right: 595px;
 }
