@@ -1,0 +1,131 @@
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    background-color: #1f2937;
+    flex: 1;
+    padding-top: 8px;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerLogo {
+    display: flex;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.headerBottom {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+.headerBottomLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: auto;
+}
+
+.headerBottomLeftHeadline {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+    width: 330px;
+    height: 120px;
+}
+
+.headerBottomLeftText {
+    width: 330px;
+    height: 120px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.headerBottomLeftText,
+.headerLinks {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signupButton {
+    color: #f9faf8;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 25px;
+}
+
+.headerBottomRight {
+    display: flex;
+    align-items: flex-start;
+}
+
+#headerImg {
+   width: 420px;
+   height: 120px;
+}
+/* RandomInfo styling */
+.randomInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 128px;
+    padding-right: 128px;
+    flex: 1;
+}
+
+.randomInfoHeadline {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.pictureSlide {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.picture {
+    display: flex;
+    flex-direction: column;
+}
+
+.pictureActual {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+.subtext {
+    width: 100px;
+}
