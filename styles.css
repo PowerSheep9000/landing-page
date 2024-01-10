@@ -5,8 +5,14 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
     font-family: Roboto, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
 }
 
 a {
@@ -39,10 +45,16 @@ a {
     color: #f9faf8;
 }
 
+.headerLinks {
+    display: flex;
+    gap: 24px;
+}
+
 .headerBottom {
     display: flex;
     justify-content: space-around;
     gap: 32px;
+    margin-bottom: 48px;
 }
 
 .headerBottomLeft {
@@ -99,6 +111,7 @@ a {
     padding-left: 128px;
     padding-right: 128px;
     flex: 1;
+    margin-bottom: 48px;
 }
 
 .randomInfoHeadline {
@@ -112,20 +125,50 @@ a {
 .pictureSlide {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 32px;
 }
 
 .picture {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .pictureActual {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
     border: 2px solid #3882F6;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 .subtext {
-    width: 100px;
+    display: flex;
+    width: 180px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+/* Quote styling */
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-left: 128px;
+    padding-right: 128px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteProper {
+    width: 800px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.citation {
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
 }
