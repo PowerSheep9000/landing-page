@@ -52,7 +52,6 @@ a {
 
 .headerBottom {
     display: flex;
-    
     gap: 32px;
     margin-bottom: 48px;
 }
@@ -70,13 +69,13 @@ a {
     color: #f9faf8;
     width: 330px;
     height: 120px;
+    margin-bottom: 4px;
 }
 
 .headerBottomLeftText {
     width: 330px;
     height: 120px;
-    margin-top: 0;
-    margin-bottom: 0;
+
 }
 
 .headerBottomLeftText,
