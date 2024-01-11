@@ -69,13 +69,12 @@ a {
     font-size: 48px;
     color: #f9faf8;
     width: 330px;
-    height: 120px;
     margin-bottom: 4px;
 }
 
 .headerBottomLeftText {
     width: 330px;
-    height: 120px;
+    margin-bottom: 8px;
 
 }
 
